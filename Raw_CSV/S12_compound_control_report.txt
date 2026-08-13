@@ -1,0 +1,6 @@
+v7 non-BaP compound control (ChEMBL single-source)
+generated: 2026-08-11 18:43:56
+universe: 5043 genes; key genes: 364; seed=2026; 10,000 draws
+Note: SwissTargetPrediction/PharmMapper/SEA/CTD not programmatically accessible in this session; control is ChEMBL-only and is a partial control.
+{"compound": "pyrene", "chembl_id": "CHEMBL279564", "pubchem_cid": 31423, "human_targets": "CYP1A1;CYP1A2;CYP1B1;CYP3A4", "mapped_1to1": "Cyp1a1;Cyp1a2;Cyp1b1", "evaluable": "", "n_evaluable": 0, "candidates": "", "n_candidates": 0, "expected": 0.0, "enrichment_fold": 0.0, "empirical_p": null, "null_range": "NA"}
+{"compound": "phenanthrene", "chembl_id": "CHEMBL46730", "pubchem_cid": 705, "human_targets": "TDP1;TSHR", "mapped_1to1": "Tdp1;Tshr", "evaluable": "", "n_evaluable": 0, "candidates": "", "n_candidates": 0, "expected": 0.0, "enrichment_fold": 0.0, "empirical_p": null, "null_range": "NA"}

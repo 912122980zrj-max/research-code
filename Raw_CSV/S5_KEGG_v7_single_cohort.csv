@@ -1,0 +1,2 @@
+category,subcategory,ID,Description,GeneRatio,BgRatio,RichFactor,FoldEnrichment,zScore,pvalue,p.adjust,qvalue,geneID,Count
+Environmental Information Processing,Signaling molecules and interaction,mmu04080,Neuroactive ligand-receptor interaction,4/9,394/11207,0.01015228426395939,12.64184997179921,6.669193832382624,1.647420901262555e-4,0.008731330776691542,0.007283334510844981,12671/18166/18167/233571,4

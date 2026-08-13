@@ -1,0 +1,48 @@
+"sample","cohort","group","title","genotype","exclude_drug","include_full","include_clean"
+"GSM1412394","GSE58485","tbi","TBI 3 days ipsilateral neocortex Ccl3-/- mouse_1","Ccl3-/-",FALSE,TRUE,TRUE
+"GSM1412395","GSE58485","sham","Neocortex uninjured Ccl3-/- mouse_1","Ccl3-/-",FALSE,TRUE,TRUE
+"GSM1412396","GSE58485","sham","Neocortex uninjured Ccl3-/- mouse_2","Ccl3-/-",FALSE,TRUE,TRUE
+"GSM1412397","GSE58485","tbi","TBI 3 days ipsilateral neocortex Ccl3-/- mouse_2","Ccl3-/-",FALSE,TRUE,TRUE
+"GSM1412398","GSE58485","tbi","TBI 3 days ipsilateral neocortex Ccl3-/- mouse_3","Ccl3-/-",FALSE,TRUE,TRUE
+"GSM1412399","GSE58485","tbi","TBI 3 days ipsilateral neocortex Ccl3-/- mouse_4","Ccl3-/-",FALSE,TRUE,TRUE
+"GSM1412400","GSE58485","tbi","TBI 3 days ipsilateral neocortex Ccl3-/- mouse_5","Ccl3-/-",FALSE,TRUE,TRUE
+"GSM1412401","GSE58485","tbi","TBI 3 days ipsilateral neocortex Ccr2-/- mouse_1","Ccr2-/-",FALSE,TRUE,TRUE
+"GSM1412402","GSE58485","tbi","TBI 3 days ipsilateral neocortex Ccr2-/- mouse_2","Ccr2-/-",FALSE,TRUE,TRUE
+"GSM1412403","GSE58485","sham","Neocortex uninjured Ccr2-/- mouse_1","Ccr2-/-",FALSE,TRUE,TRUE
+"GSM1412404","GSE58485","sham","Neocortex uninjured Ccr2-/- mouse_2","Ccr2-/-",FALSE,TRUE,TRUE
+"GSM1412405","GSE58485","tbi","TBI 3 days ipsilateral neocortex Ccr2-/- mouse_3","Ccr2-/-",FALSE,TRUE,TRUE
+"GSM1412406","GSE58485","tbi","TBI 3 days ipsilateral neocortex Ccr2-/- mouse_4","Ccr2-/-",FALSE,TRUE,TRUE
+"GSM1412407","GSE58485","tbi","TBI 3 days ipsilateral neocortex Ccr2-/- mouse_5","Ccr2-/-",FALSE,TRUE,TRUE
+"GSM1412408","GSE58485","tbi","TBI 3 days ipsilateral neocortex wildtype B6 mouse_1","wildtype",FALSE,TRUE,TRUE
+"GSM1412409","GSE58485","tbi","TBI 3 days ipsilateral neocortex wildtype B6 mouse_2","wildtype",FALSE,TRUE,TRUE
+"GSM1412410","GSE58485","tbi","TBI 3 days ipsilateral neocortex wildtype B6 mouse_3","wildtype",FALSE,TRUE,TRUE
+"GSM1412411","GSE58485","sham","Neocortex uninjured wildtype B6 mouse_1","wildtype",FALSE,TRUE,TRUE
+"GSM1412412","GSE58485","sham","Neocortex uninjured wildtype B6 mouse_2","wildtype",FALSE,TRUE,TRUE
+"GSM1412413","GSE58485","sham","Neocortex uninjured wildtype B6 mouse_3","wildtype",FALSE,TRUE,TRUE
+"GSM1412414","GSE58485","tbi","TBI 3 days ipsilateral neocortex cyclophosphamide i.p. wildtype B6 mouse_1","wildtype",TRUE,TRUE,FALSE
+"GSM1412415","GSE58485","tbi","TBI 3 days ipsilateral neocortex, PBS i.p. wildtype B6 mouse_1","wildtype",FALSE,TRUE,TRUE
+"GSM1412416","GSE58485","tbi","TBI 3 days ipsilateral neocortex cyclophosphamide i.p. wildtype B6 mouse_2","wildtype",TRUE,TRUE,FALSE
+"GSM1412417","GSE58485","tbi","TBI 3 days ipsilateral neocortex, PBS i.p. wildtype B6 mouse_2","wildtype",FALSE,TRUE,TRUE
+"GSM1412418","GSE58485","tbi","TBI 3 days ipsilateral neocortex cyclophosphamide i.p. wildtype B6 mouse_3","wildtype",TRUE,TRUE,FALSE
+"GSM1412419","GSE58485","tbi","TBI 3 days ipsilateral neocortex cyclophosphamide i.p. wildtype B6 mouse_4","wildtype",TRUE,TRUE,FALSE
+"GSM1412420","GSE58485","tbi","TBI 3 days ipsilateral neocortex, PBS i.p. wildtype B6 mouse_3","wildtype",FALSE,TRUE,TRUE
+"GSM1412421","GSE58485","tbi","TBI 3 days ipsilateral neocortex cyclophosphamide i.p. wildtype B6 mouse_5","wildtype",TRUE,TRUE,FALSE
+"GSM1412422","GSE58485","tbi","TBI 3 days ipsilateral neocortex, PBS i.p. wildtype B6 mouse_4","wildtype",FALSE,TRUE,TRUE
+"GSM1015318","GSE41345","other","Ex-4-1","wildtype",FALSE,FALSE,FALSE
+"GSM1015319","GSE41345","other","Ex-4-2","wildtype",FALSE,FALSE,FALSE
+"GSM1015320","GSE41345","other","Ex-4-3","wildtype",FALSE,FALSE,FALSE
+"GSM1015321","GSE41345","other","Ex-4-4","wildtype",FALSE,FALSE,FALSE
+"GSM1015322","GSE41345","other","Ex-4-5","wildtype",FALSE,FALSE,FALSE
+"GSM1015323","GSE41345","tbi","mTBI-1","wildtype",FALSE,TRUE,TRUE
+"GSM1015324","GSE41345","tbi","mTBI-2","wildtype",FALSE,TRUE,TRUE
+"GSM1015325","GSE41345","tbi","mTBI-3","wildtype",FALSE,TRUE,TRUE
+"GSM1015326","GSE41345","tbi","mTBI-4","wildtype",FALSE,TRUE,TRUE
+"GSM1015327","GSE41345","tbi","Ex-4-mTBI-1","wildtype",TRUE,TRUE,FALSE
+"GSM1015328","GSE41345","tbi","Ex-4-mTBI-2","wildtype",TRUE,TRUE,FALSE
+"GSM1015329","GSE41345","tbi","Ex-4-mTBI-3","wildtype",TRUE,TRUE,FALSE
+"GSM1015330","GSE41345","tbi","Ex-4-mTBI-4","wildtype",TRUE,TRUE,FALSE
+"GSM1015331","GSE41345","sham","sham-1","wildtype",FALSE,TRUE,TRUE
+"GSM1015332","GSE41345","sham","sham-2","wildtype",FALSE,TRUE,TRUE
+"GSM1015333","GSE41345","sham","sham-3","wildtype",FALSE,TRUE,TRUE
+"GSM1015334","GSE41345","sham","sham-4","wildtype",FALSE,TRUE,TRUE
+"GSM1015335","GSE41345","sham","sham-5","wildtype",FALSE,TRUE,TRUE

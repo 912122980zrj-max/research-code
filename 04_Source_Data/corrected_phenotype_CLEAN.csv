@@ -1,0 +1,34 @@
+"geo_accession","title","group","cohort","subseries","genotype:ch1","genotype","exclude_drug"
+"GSM1412394","TBI 3 days ipsilateral neocortex Ccl3-/- mouse_1","tbi","GSE58485","GSE58485","Ccl3-/-","Ccl3-/-",FALSE
+"GSM1412395","Neocortex uninjured Ccl3-/- mouse_1","sham","GSE58485","GSE58485","Ccl3-/-","Ccl3-/-",FALSE
+"GSM1412396","Neocortex uninjured Ccl3-/- mouse_2","sham","GSE58485","GSE58485","Ccl3-/-","Ccl3-/-",FALSE
+"GSM1412397","TBI 3 days ipsilateral neocortex Ccl3-/- mouse_2","tbi","GSE58485","GSE58485","Ccl3-/-","Ccl3-/-",FALSE
+"GSM1412398","TBI 3 days ipsilateral neocortex Ccl3-/- mouse_3","tbi","GSE58485","GSE58485","Ccl3-/-","Ccl3-/-",FALSE
+"GSM1412399","TBI 3 days ipsilateral neocortex Ccl3-/- mouse_4","tbi","GSE58485","GSE58485","Ccl3-/-","Ccl3-/-",FALSE
+"GSM1412400","TBI 3 days ipsilateral neocortex Ccl3-/- mouse_5","tbi","GSE58485","GSE58485","Ccl3-/-","Ccl3-/-",FALSE
+"GSM1412401","TBI 3 days ipsilateral neocortex Ccr2-/- mouse_1","tbi","GSE58485","GSE58485","Ccr2-/-","Ccr2-/-",FALSE
+"GSM1412402","TBI 3 days ipsilateral neocortex Ccr2-/- mouse_2","tbi","GSE58485","GSE58485","Ccr2-/-","Ccr2-/-",FALSE
+"GSM1412403","Neocortex uninjured Ccr2-/- mouse_1","sham","GSE58485","GSE58485","Ccr2-/-","Ccr2-/-",FALSE
+"GSM1412404","Neocortex uninjured Ccr2-/- mouse_2","sham","GSE58485","GSE58485","Ccr2-/-","Ccr2-/-",FALSE
+"GSM1412405","TBI 3 days ipsilateral neocortex Ccr2-/- mouse_3","tbi","GSE58485","GSE58485","Ccr2-/-","Ccr2-/-",FALSE
+"GSM1412406","TBI 3 days ipsilateral neocortex Ccr2-/- mouse_4","tbi","GSE58485","GSE58485","Ccr2-/-","Ccr2-/-",FALSE
+"GSM1412407","TBI 3 days ipsilateral neocortex Ccr2-/- mouse_5","tbi","GSE58485","GSE58485","Ccr2-/-","Ccr2-/-",FALSE
+"GSM1412408","TBI 3 days ipsilateral neocortex wildtype B6 mouse_1","tbi","GSE58485","GSE58485","wildtype","wildtype",FALSE
+"GSM1412409","TBI 3 days ipsilateral neocortex wildtype B6 mouse_2","tbi","GSE58485","GSE58485","wildtype","wildtype",FALSE
+"GSM1412410","TBI 3 days ipsilateral neocortex wildtype B6 mouse_3","tbi","GSE58485","GSE58485","wildtype","wildtype",FALSE
+"GSM1412411","Neocortex uninjured wildtype B6 mouse_1","sham","GSE58485","GSE58485","wildtype","wildtype",FALSE
+"GSM1412412","Neocortex uninjured wildtype B6 mouse_2","sham","GSE58485","GSE58485","wildtype","wildtype",FALSE
+"GSM1412413","Neocortex uninjured wildtype B6 mouse_3","sham","GSE58485","GSE58485","wildtype","wildtype",FALSE
+"GSM1412415","TBI 3 days ipsilateral neocortex, PBS i.p. wildtype B6 mouse_1","tbi","GSE58485","GSE58485","wildtype","wildtype",FALSE
+"GSM1412417","TBI 3 days ipsilateral neocortex, PBS i.p. wildtype B6 mouse_2","tbi","GSE58485","GSE58485","wildtype","wildtype",FALSE
+"GSM1412420","TBI 3 days ipsilateral neocortex, PBS i.p. wildtype B6 mouse_3","tbi","GSE58485","GSE58485","wildtype","wildtype",FALSE
+"GSM1412422","TBI 3 days ipsilateral neocortex, PBS i.p. wildtype B6 mouse_4","tbi","GSE58485","GSE58485","wildtype","wildtype",FALSE
+"GSM1015323","mTBI-1","tbi","GSE41345","GSE41345",NA,"wildtype",FALSE
+"GSM1015324","mTBI-2","tbi","GSE41345","GSE41345",NA,"wildtype",FALSE
+"GSM1015325","mTBI-3","tbi","GSE41345","GSE41345",NA,"wildtype",FALSE
+"GSM1015326","mTBI-4","tbi","GSE41345","GSE41345",NA,"wildtype",FALSE
+"GSM1015331","sham-1","sham","GSE41345","GSE41345",NA,"wildtype",FALSE
+"GSM1015332","sham-2","sham","GSE41345","GSE41345",NA,"wildtype",FALSE
+"GSM1015333","sham-3","sham","GSE41345","GSE41345",NA,"wildtype",FALSE
+"GSM1015334","sham-4","sham","GSE41345","GSE41345",NA,"wildtype",FALSE
+"GSM1015335","sham-5","sham","GSE41345","GSE41345",NA,"wildtype",FALSE

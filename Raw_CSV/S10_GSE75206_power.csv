@@ -1,0 +1,6 @@
+n_per_group,alpha,power,pooled_sd_log2,min_detectable_log2FC,anchor
+4,0.05,0.8,0.5,1.0013,assumed
+4,0.05,0.8,1.0,2.0025,assumed
+4,0.05,0.8,1.5,3.0038,assumed
+4,0.05,0.8,0.3249,0.6506,primary_matrix_median_SD
+4,0.05,0.8,0.4462,0.8936,primary_matrix_Q75_SD

@@ -1,0 +1,12 @@
+"algorithm","matrix","cv_auc_mean","cv_auc_sd"
+"SVM","raw_CLEAN",1,0
+"Lasso","raw_CLEAN",1,0
+"glmBoost","raw_CLEAN",1,0
+"RF","raw_CLEAN",1,0
+"StepGLM","raw_CLEAN",0.973333333333333,0.133333333333333
+"Ridge","raw_CLEAN",1,0
+"LDA","raw_CLEAN",1,0
+"ENET","raw_CLEAN",1,0
+"XGBoost","raw_CLEAN",1,0
+"GBM","raw_CLEAN",1,0
+"NaiveBayes","raw_CLEAN",1,0

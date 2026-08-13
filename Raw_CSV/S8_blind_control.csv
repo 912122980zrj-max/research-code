@@ -1,0 +1,2 @@
+﻿receptor,control_type,n_boxes,global_best_affinity_kcal_mol,best_pose_center,reference_pocket_center,center_distance_A,within_5A_of_reference_pocket,note
+HSD11B1,"full-surface blind tiling (30 A boxes, 15 A step)",8,-10.29,64.87;100.86;46.04,64.86;102.91;46.07,2.05,True,"P2RY6 main protocol is already full-surface blind tiling (20 boxes); its global best (-10.02 kcal/mol) falls in the same TM pocket as the CB-Dock2 preliminary result (-9.99), providing the second blind control."
