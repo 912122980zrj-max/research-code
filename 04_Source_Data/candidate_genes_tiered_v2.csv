@@ -1,8 +1,0 @@
-"gene","tier","source","score_detail"
-"Ccr5","C","ChEMBL","NA; n_qualifying=0; n_activities=2; max_pchembl=NA; assay_types=B; max_assay_confidence=8"
-"Hsd11b1","C","PharmMapper","0.927; zscore"
-"Lst1","C","ChEMBL","NA; n_qualifying=0; n_activities=1; max_pchembl=NA; assay_types=A; max_assay_confidence=8"
-"Mmp2","C","PharmMapper;SwissTargetPrediction","0.728; zscore"
-"Npy2r","C","ChEMBL","NA; n_qualifying=0; n_activities=2; max_pchembl=NA; assay_types=B; max_assay_confidence=8"
-"P2ry6","C","SwissTargetPrediction","0.0007774; probability"
-"Ripk1","C","SwissTargetPrediction","0.001302; probability"
