@@ -1,0 +1,3 @@
+compound,chembl_id,pubchem_cid,human_targets,mapped_1to1,evaluable,n_evaluable,candidates,n_candidates,expected,enrichment_fold,empirical_p,null_range
+pyrene,CHEMBL279564,31423,CYP1A1;CYP1A2;CYP1B1;CYP3A4,Cyp1a1;Cyp1a2;Cyp1b1,,0,,0,0.0,0.0,,NA
+phenanthrene,CHEMBL46730,705,TDP1;TSHR,Tdp1;Tshr,,0,,0,0.0,0.0,,NA

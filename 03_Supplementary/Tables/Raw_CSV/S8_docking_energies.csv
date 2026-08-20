@@ -1,0 +1,11 @@
+﻿receptor,structure,chain,n_boxes,best_affinity_kcal_mol,seed_scores
+AHR,"PDB 8QMO (cryo-EM, BaP-bound Hsp90-XAP2-AHR), chain D = human AHR PAS-B (272-427); experimental BaP W62 used for box/validation",D,1,-14.16,-14.16;-14.15;-14.14
+CYP1A2,"PDB 2HI4 (X-ray, CYP1A2 with alpha-naphthoflavone), chain A + heme; BHF used for box",A,1,-15.66,-15.66;-15.66;-15.65
+CYP1B1,"PDB 3PM0 (X-ray 2.7 A, human CYP1B1 with alpha-naphthoflavone), chain A + heme; BHF used for box/validation",A,1,-15.96,-15.94;-15.94;-15.96
+CRABP2,"PDB 1CBS (X-ray, human CRABP-II with all-trans retinoic acid), chain A; REA used for box/validation",A,1,-9.685,-9.65;-9.69;-9.65
+ESR1,"PDB 1A52 (X-ray 2.8 A, human ER-alpha LBD with estradiol), chain A; EST used for box/validation",A,1,-10.91,-10.91;-10.90;-10.88
+HSD11B1,"PDB 2ILT (X-ray, HSD11B1 with NADP and inhibitor), chain A + NADP; inhibitor NN1 used for box",A,1,-10.25,-10.23;-10.21;-10.25
+MAOA,"PDB 2BXR (X-ray, MAO-A with FAD and clorgyline adduct), chain A + FAD; MLG used for box",A,1,-11.54,-11.53;-11.54;-11.54
+NFE2L2,"AlphaFold NFE2L2/Nrf2 (Q16236), chain A, CNC-bZIP domain residues 454-597 (pLDDT>=70); local blind docking grid",A,20,-7.567,-7.55;-7.57;-7.55
+PGF,"PDB 1FZV (X-ray 2.0 A, human PlGF-1), chain A; no small-molecule cocrystal, local blind docking grid",A,4,-7.123,-7.12;-7.12;-7.11
+P2RY6,"AlphaFold P2RY6 monomer (Q15077), chain A; local blind docking with overlapping 32 A grid boxes (independent of CB-Dock2)",A,20,-10.02,-10.02;-10.00;-10.00
