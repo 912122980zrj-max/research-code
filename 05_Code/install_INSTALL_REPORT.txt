@@ -1,0 +1,37 @@
+# TBI 缺失 R 包一键安装报告
+# 生成时间：2026-08-08 11:48:06
+# R 版本：R version 4.5.3 (2026-03-11 ucrt)
+
+## 验证结果
+
+| 包 | 状态 | 版本 |
+|----|------|------|
+| rms                | OK    | 8.1.1 |
+| rmda               | OK    | 1.6 |
+| Mime1              | OK    | 0.0.0.9000 |
+| CoxBoost           | OK    | 1.5.1 |
+| fastAdaboost       | OK    | 1.0.0 |
+| GSEABase           | OK    | 1.72.0 |
+| GSVA               | OK    | 2.4.9 |
+| cancerclass        | OK    | 1.54.0 |
+| mixOmics           | OK    | 6.34.0 |
+| sparrow            | OK    | 1.16.0 |
+| ComplexHeatmap     | OK    | 2.26.1 |
+| TOAST              | OK    | 1.24.0 |
+| MuSiC              | OK    | 1.0.0 |
+| BisqueRNA          | OK    | 1.0.5 |
+| limSolve           | OK    | 2.0.3 |
+| DoubletFinder      | OK    | 2.0.6 |
+| SoupX              | OK    | 1.6.2 |
+
+**总体：全部安装成功**
+
+## 重要说明
+1. Mime 的 GitHub 仓库已迁移为 l-magnificence/Mime，包名是 **Mime1**，
+   加载用 `library(Mime1)`（不是 library(Mime)）；D3 脚本需相应调整。
+2. rmda 已于 2026-05-04 从 CRAN 移除，本次由 CRAN 归档安装 1.6。
+3. MuSiC / BisqueRNA 已不在 Bioconductor 发布版中，本次从官方 GitHub 安装。
+4. USTC/TUNA 的 Bioc 镜像当前实测不可用（404/403），本次 Bioc 包使用官方源。
+5. 完整安装日志：
+E:\sheng xin\tbi\TBI_pipeline\scripts\install/INSTALL_LOG_20260808_114746.txt
+

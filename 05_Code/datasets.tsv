@@ -1,0 +1,16 @@
+# 数据集清单：GEO 编号、物种、组织、平台、样本量、用途（discovery/validation/singlecell）、备注
+# 以 # 开头的行会被忽略；用途写 discovery / validation / singlecell / optional
+# 2026-08-09 v4 定稿口径：CLEAN 主结果 = GSE58485(24) + GSE41345(9)，n=33；
+# 预处理含每队列覆盖过滤（两队列内均 >=10% 样本非零，10717→5043 基因）与
+# GSE41345 默认 wildtype 基因型（GENO_CODE=other 敏感性另存 _GENO_OTHER）
+GSE58485	mouse	cortex	Affymetrix Mouse 430 2.0 (GPL1261)	29	discovery	CCI 3d；CLEAN 口径已剔除 5 个环磷酰胺样本，保留 PBS vehicle 4 个 + KO/WT（KO 作 genotype 协变量）；FULL 口径 29 样本仅用于对比归档；v4 覆盖过滤后 DEG 198（CLEAN）/137（FULL）
+GSE41345	mouse	hippocampus	Illumina MouseRef-8 v2.0 (GPL6885)	18	discovery	mTBI 7d；CLEAN 口径剔除 4 个 Ex-4-mTBI 样本；Ex-4-only 5 个未纳入（无 TBI）；无基因型列，v4 默认 wildtype（C57BL/6 假设），单队列 0 DEG（n=9）
+GSE128543	mouse	cortex	GPL20775	28	validation	CCI 48h；主验证 = WT-only n=14（7 vs 7，Sham 无开颅）；含 RBM5 KO 的 28 样本版仅作敏感性分析
+GSE205958	mouse	cortex	Illumina NovaSeq 6000 RNA-seq (GPL24247)	10	validation	CCI 7d RNA-seq（Bao W 2023, Brain Res）；TBI 5 vs naïve 5；D12 固定 3 特征签名（P2RY6/HSD11B1/CCR5，v4，log2 主口径）验证 AUC=1.0（25/25 配对，精确二项 95%CI 0.863–1），探索性复制；逐基因方向 2/3 一致（CCR5 方向相反，不稳定）；跨平台/跨时点尺度差异已写入局限（2026-08-09）
+GSE2871	rat	cortex/hippocampus	Affymetrix Rat U34A (GPL85)	47	optional	FPI 0.5-24h；无 Sham 标签且跨物种，未纳入（P17）
+GSE160651	mouse	cortex	NanoString neuropathology panel (GPL29331)	55	optional	弥漫 FPI；仅限 panel 内基因，与全转录组特征不可直接比对，未纳入（P17）
+GSE104687	human	brain	RNA-seq (GPL16791)	376	validation	ACT 老龄队列慢性 TBI；v4 签名 P2RY6/CCR5 在该队列 FPKM 缺失，固定 3 基因签名不可评估；仅作跨物种/跨时相局限性说明（非人类验证）
+GSE209552	human	brain (resected)	10x snRNA-seq	30	validation	singlecell 人源定位（12 TBI + 5 对照）；对照为 69–87 岁尸检，TBI 为平均 49.5 岁手术挫伤组织，按样本统计并写入局限
+GSE160763	mouse	cortex	10x scRNA-seq (GPL13112)	8	singlecell	CCI 急性期；含 PLX5622 处理组，仅 N/T 组可比较
+GSE269748	mouse	brain	10x scRNA-seq	36	singlecell	CEREBRI 多模型图谱；未纳入本次分析（P17）
+GSE254162/GSE254163/GSE254164	mouse	brain	10x snRNA-seq	12/6/26	singlecell	成纤维-免疫互作（Nature 2025）；未纳入本次分析（P17）
