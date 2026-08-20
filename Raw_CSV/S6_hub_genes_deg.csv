@@ -1,6 +1,0 @@
-Mouse gene,Human symbol,log2FC,P,BH adjP,"DEG (|log2FC|>0.585, adjP<0.05)",Note
-Trp53,TP53,0.233,0.019,0.0791,No,
-Egfr,EGFR,0.105,0.126,0.291,No,
-Akt1,AKT1,NA,NA,NA,No,Absent from the coverage-filtered matrix (not evaluable)
-Actb,ACTB,0.452,0.0424,0.14,No,
-Tnf,TNF,NA,NA,NA,No,Absent from the coverage-filtered matrix (not evaluable)

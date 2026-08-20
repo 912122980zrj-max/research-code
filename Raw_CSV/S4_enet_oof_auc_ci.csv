@@ -1,2 +1,0 @@
-"auc","ci_low","ci_high","n","method"
-1,1,1,120,"ENet alpha=0.9 OOF (5x repeated 5-fold, raw CLEAN)"

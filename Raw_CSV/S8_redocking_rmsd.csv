@@ -1,9 +1,0 @@
-﻿receptor,panel,cocrystal_ligand,redocked_ligand,best_affinity_kcal_mol,heavy_atom_RMSD_A,pass_2A,note
-AHR,main,W62,W62,-14.1,0.758,True,
-CYP1A2,main,BHF,BHF,-14.57,1.363,True,
-CYP1B1,main,BHF,BHF,-14.58,1.515,True,
-CRABP2,main,REA,REA,-8.313,0.607,True,
-ESR1,main,EST,EST,-10.66,0.432,True,
-HSD11B1,main,NN1,NN1,-10.69,1.128,True,
-MAOA,main,MLG,clorgyline (free),-6.571,1.548,True,MLG is a covalent FAD adduct; free clorgyline was docked. RMSD vs the adduct is approximate/NA.
-ADAM17,legacy,INN,INN (TAPI-2),-6.792,1.273,True,Legacy panel (ADAM17 removed from main panel); TAPI-2 is a flexible peptidomimetic

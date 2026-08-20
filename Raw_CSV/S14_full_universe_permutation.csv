@@ -1,3 +1,0 @@
-path,K,universe,key_genes,observed,expected,enrichment,empirical_P,null_95_lo,null_95_hi
-uniform,6,27250,400,6,0.0880733944954128,68.125,9.999000099990002e-05,0,1
-meanvar_stratified,6,27250,400,6,0.5002,11.995201919232308,9.999000099990002e-05,0,2

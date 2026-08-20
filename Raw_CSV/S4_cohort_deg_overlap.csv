@@ -1,3 +1,0 @@
-"design","n_samples_a","n_samples_b","n_deg_a","n_deg_b","n_overlap","jaccard","n_a_in_combined","n_b_in_combined","n_combined","pct_combined_in_a"
-"with_geno",24,9,373,0,0,0,194,0,198,97.98
-"no_geno",24,9,339,0,0,0,190,0,198,95.96

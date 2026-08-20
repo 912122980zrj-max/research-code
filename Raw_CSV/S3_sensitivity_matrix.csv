@@ -1,6 +1,0 @@
-path,genes_after_filter,n_deg,best_module,best_r,best_p,n_key_genes,n_candidates,candidate_genes,candidate_tiers,conclusion_changed,note,loco_clean,loco_full,single_cohort_cv_auc
-CLEAN (main),5043,198,NA,NA,NA,193,7,"Ccr5,Hsd11b1,Lst1,Mmp2,Npy2r,P2ry6,Ripk1","C,C,C,C,C,C,C",No,reference,0.6/0.5,0.7/0.5,0.45/0.6/0.5/0.5
-FULL,5033,137,NA,NA,NA,135,5,"Cyp1b1,Hsd11b1,Mmp2,P2ry6,Ripk1","A,C,C,C,C",Yes,includes drug-treated samples,0.6/0.5,0.7/0.5,0.45/0.6/0.5/0.5
-GSE58485-only,5043,373,green,0.978,1.7e-16,364,11,"Adam17,Ccr5,Chrm3,Hsd11b1,Lst1,Mmp2,Npy1r,Npy2r,Nqo2,P2ry6,Ripk1","C,C,C,C,C,C,C,C,C,C,C",Yes,single-cohort WGCNA rerun; genotype covariate included,0.6/0.5,0.7/0.5,0.45/0.6/0.5/0.5
-removeBatchEffect,5043,196,yellow,0.81,1.13e-8,195,8,"Ccr5,Chrm3,Hsd11b1,Lst1,Mmp2,Npy2r,P2ry6,Ripk1","C,C,C,C,C,C,C,C",Yes,limma removeBatchEffect (batch=cohort),0.6/0.5,0.7/0.5,0.45/0.6/0.5/0.5
-SVA,5043,195,turquoise,0.826,3.13e-9,192,8,"Ccr5,Chrm3,Hsd11b1,Lst1,Mmp2,Npy2r,P2ry6,Ripk1","C,C,C,C,C,C,C,C",Yes,sva n.sv=2,0.6/0.5,0.7/0.5,0.45/0.6/0.5/0.5
