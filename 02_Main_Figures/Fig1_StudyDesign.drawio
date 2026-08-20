@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" modified="2026-08-10T00:00:00.000Z" agent="Codex" version="31.1.8">
+  <diagram id="figure1_v5" name="Figure 1">
+    <mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1250" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title1" value="Benchmarking predicted BaP target–disease intersections in TBI transcriptomes" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#14263F;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="250" y="20" width="1100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Phase labels -->
+        <mxCell id="lab1" value="DATA &amp; TARGET PREDICTION" style="text;html=1;align=center;verticalAlign=middle;rotation=-90;fontSize=12;fontStyle=1;fontColor=#5A6B82;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="lab2" value="PREPROCESSING" style="text;html=1;align=center;verticalAlign=middle;rotation=-90;fontSize=12;fontStyle=1;fontColor=#5A6B82;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="20" y="360" width="40" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lab3" value="DISCOVERY &amp; CANDIDATES" style="text;html=1;align=center;verticalAlign=middle;rotation=-90;fontSize=12;fontStyle=1;fontColor=#5A6B82;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="20" y="500" width="40" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lab4" value="ENRICHMENT &amp; ML" style="text;html=1;align=center;verticalAlign=middle;rotation=-90;fontSize=12;fontStyle=1;fontColor=#5A6B82;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="20" y="740" width="40" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lab5" value="VALIDATION" style="text;html=1;align=center;verticalAlign=middle;rotation=-90;fontSize=12;fontStyle=1;fontColor=#5A6B82;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="20" y="900" width="40" height="160" as="geometry" />
+        </mxCell>
+
+        <!-- Inputs -->
+        <mxCell id="in1" value="Primary cohort&#xa;GSE58485 cortex CCI 3 d (n = 24; 17 TBI / 7 sham)&#xa;Stress test: GSE41345 hippocampus mTBI 14 d (n = 9)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF1FB;strokeColor=#3B6EA5;fontColor=#17324D;fontSize=12;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="in2" value="BaP target prediction&#xa;ChEMBL · SEA · PharmMapper · SwissTargetPrediction&#xa;364 unique targets (A = 5, B = 23, C = 336)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF1FB;strokeColor=#3B6EA5;fontColor=#17324D;fontSize=12;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="560" y="80" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="in3" value="External / contextual datasets&#xa;GSE128543 CCI 48 h WT n = 14; GSE205958 n = 10&#xa;GSE104687 human aging n = 376&#xa;GSE209552 snRNA-seq n = 17" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF1FB;strokeColor=#3B6EA5;fontColor=#17324D;fontSize=12;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="80" width="340" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Preprocessing -->
+        <mxCell id="pp1" value="Common-gene universe (10,717)&#xa;NA filter + per-cohort coverage filter (≥10%)&#xa;primary = GSE58485-only (n = 24); merged stress test = n = 33" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6B7A90;fontColor=#222222;fontSize=12;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pp2" value="Coverage filter&#xa;5,043 genes retained&#xa;primary: no batch correction (single cohort)&#xa;merged stress test: ComBat (eta^2 0.9999 -&gt; 0.0001)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6B7A90;fontColor=#222222;fontSize=12;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="560" y="270" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pp3" value="Target evaluability&#xa;Ensembl Genes 116, 1:1 orthology&#xa;69 / 364 targets evaluable (19.0%)&#xa;tier A = 1 (HPRT1 -&gt; Hprt), B = 6, C = 62" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6B7A90;fontColor=#222222;fontSize=12;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="270" width="340" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Discovery -->
+        <mxCell id="d1" value="Differential expression (limma)&#xa;373 DEGs (295 up / 78 down)&#xa;design ~group + genotype; |log2FC| &gt; 0.585, BH adjP &lt; 0.05" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E5F0FF;strokeColor=#2F5DA8;fontColor=#17324D;fontSize=12;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="80" y="450" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" value="WGCNA co-expression (primary)&#xa;top 8,000 MAD genes, softPower 4&#xa;green module r = 0.978 (P = 1.7e-16)&#xa;1,942 module genes (significant modules)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E5F0FF;strokeColor=#2F5DA8;fontColor=#17324D;fontSize=12;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="560" y="450" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d3" value="Candidate intersection&#xa;373 DEG ∩ 1,942 module genes = 364 key genes&#xa;∩ 69 evaluable BaP targets = 11 candidates (all tier C)&#xa;green-module-only = 3 candidates" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D6E4FF;strokeColor=#1F4E9C;fontColor=#17324D;fontSize=13;fontStyle=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="450" width="340" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- Enrichment + ML -->
+        <mxCell id="e1" value="Enrichment &amp; AhR test&#xa;GO BP 38 terms; KEGG 1 (neuroactive ligand–receptor)&#xa;AhR: not covered by array; no Fisher P reported" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF6E5;strokeColor=#C07F00;fontColor=#4A2C00;fontSize=12;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="80" y="650" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" value="Machine learning (supplementary)&#xa;11 algorithms on 11 genes, n = 24&#xa;CV AUC 0.973–1.000; descriptive only&#xa;non-nested; PROBAST+AI high risk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF6E5;strokeColor=#C07F00;fontColor=#4A2C00;fontSize=12;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="560" y="650" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m2" value="Permutation background test&#xa;11 vs 364 key genes, seed 2026, 10,000 draws&#xa;expected 0.79; 13.9-fold; empirical P &lt; 0.0001" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE9C2;strokeColor=#B26A00;fontColor=#4A2C00;fontSize=12;fontStyle=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="650" width="340" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Validation -->
+        <mxCell id="v1" value="Direction replication&#xa;GSE128543 (n = 14): 11/11 consistent&#xa;GSE205958 (n = 10): 10/11 consistent&#xa;Spearman rho = 0.745 / 0.764" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDF6E7;strokeColor=#4E8C2E;fontColor=#20301A;fontSize=12;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="80" y="840" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="v2" value="Merged-cohort stress test&#xa;merged CLEAN: 7 candidates&#xa;FULL 5 · RBE 8 · SVA 8 · no-ComBat 0&#xa;candidate list is definition-sensitive" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBEFE3;strokeColor=#C07F00;fontColor=#4A2C00;fontSize=12;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="560" y="840" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="v3" value="Human aging cohort&#xa;GSE104687 (n = 376)&#xa;9/11 orthologs measured (CCR5 / P2RY6 absent)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBEFE3;strokeColor=#C07F00;fontColor=#4A2C00;fontSize=12;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="840" width="340" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- Context -->
+        <mxCell id="ctx" value="Contextual analyses (exploratory)&#xa;deconvolution: all negative · CellChat: single-sample artifact · virtual knockout: target-only · docking: structural plausibility only · positive control GSE75206: no BaP-target DEGs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F6F7;strokeColor=#8A94A0;fontColor=#333333;fontSize=12;fontFamily=Arial;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1050" width="1300" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Edges -->
+        <mxCell id="e_in1_pp" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6B7A90;endArrow=block;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="in1" target="pp1" />
+        <mxCell id="e_in2_pp" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6B7A90;endArrow=block;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="in2" target="pp2" />
+        <mxCell id="e_in3_pp" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6B7A90;endArrow=block;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="in3" target="pp3" />
+        <mxCell id="e_pp1_pp2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#2F5DA8;endArrow=block;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="pp1" target="pp2" />
+        <mxCell id="e_pp2_d1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#2F5DA8;endArrow=block;html=1;exitX=0.35;exitY=1;entryX=0.35;entryY=0;" edge="1" parent="1" source="pp2" target="d1" />
+        <mxCell id="e_pp2_d2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#2F5DA8;endArrow=block;html=1;exitX=0.6;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="pp2" target="d2" />
+        <mxCell id="e_pp3_d3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#2F5DA8;endArrow=block;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="pp3" target="d3" />
+        <mxCell id="e_d1_d3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#2F5DA8;endArrow=block;html=1;exitX=0.5;exitY=1;entryX=0.15;entryY=0;" edge="1" parent="1" source="d1" target="d3" />
+        <mxCell id="e_d2_d3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#2F5DA8;endArrow=block;html=1;exitX=0.5;exitY=1;entryX=0.45;entryY=0;" edge="1" parent="1" source="d2" target="d3" />
+        <mxCell id="e_d3_e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#C07F00;endArrow=block;html=1;exitX=0.15;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="d3" target="e1" />
+        <mxCell id="e_d3_m1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#C07F00;endArrow=block;html=1;exitX=0.45;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="d3" target="m1" />
+        <mxCell id="e_d3_m2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#C07F00;endArrow=block;html=1;exitX=0.85;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="d3" target="m2" />
+        <mxCell id="e_e1_m1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#C07F00;endArrow=block;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="e1" target="m1" />
+        <mxCell id="e_m1_m2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#2F5DA8;endArrow=block;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="m1" target="m2" />
+        <mxCell id="e_m2_v1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#4E8C2E;endArrow=block;html=1;exitX=0.2;exitY=1;entryX=0.4;entryY=0;" edge="1" parent="1" source="m2" target="v1" />
+        <mxCell id="e_m2_v2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#C07F00;endArrow=block;html=1;exitX=0.45;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="m2" target="v2" />
+        <mxCell id="e_m2_v3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#C07F00;endArrow=block;html=1;exitX=0.8;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="m2" target="v3" />
+        <mxCell id="e_v3_ctx" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#8A94A0;endArrow=block;html=1;dashed=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="v3" target="ctx" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
